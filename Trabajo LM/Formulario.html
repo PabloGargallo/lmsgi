@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevistaPingüinos</title>
+    <link rel="icon" href="Imagenes/favi.jpg" type="image/gif" size="16x16">
+</head>
+<body>
+    <h1>Formulario revista</h1>
+    <form action="http://httpbin.org/post" method="post">
+        <div>
+            <label for="nombre">nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">email:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="tiempo">Tiempo subscrito</label>
+            <select id="tiempo" name="tiempo">
+                <option value="1semana">1 semana</option>
+                <option value="2semanas">2 semanas</option>
+                <option value="3semanas">3 semanas</option>
+                <option value="1mes">1 mes</option>
+                <option value="3meses">3 meses</option>
+                <option value="1año">1 año</option>
+
+            </select>
+            <h2>Otras opciones</h2>
+            <input type="radio" name="Tipo_revista" value="1" id="Tipo_revistap"> <label
+                for="tipo_revistap">Solo pingüinos</label><br>
+            <input type="radio" name="Tipo_revista" value="2" id="tipo_revistaotro"> <label
+                for="tipo_revistaotro">Animales en general</label><br>
+            <h3>Regalo a elegir con la subscripcion</h3>
+
+            <input type="checkbox" id="regalo" name="regalo1">
+            <label for="regalo"> Nombre en la camiseta</label><br>
+            
+            <input type="checkbox" id="regalo" name="regalo2">
+            <label for="regalo"> Numero en la camiseta</label><br>
+            
+            <h2>Inciar subscripcion</h2>
+            <label for="fecha_ini">Dia inicial</label>
+            <input type="date" id="fecha_ini" name="fecha_ini"><br><br>
+            <label for="fecha_fin">Dia que quiere cancelar subscripcion</label>
+            <input type="date" id="fecha_fin" name="fecha_fin">
+            <br><br><input type="submit" value="Reservar">
+            <a href="Imagenes/pingu.jpg"><img src="Imagenes/pingu.jpg" width="450" height="250" align="right"></a>
+    </form>
+    <form action="/Intel/Pablo/ASIRD/LM/Pingüino.html">
+        <input type="submit" value="Volver a la página principal" />
+    
+</body>
